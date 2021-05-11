@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: url(../images/quinton-coetzee-gpa8Y_Fk7Rg-unsplash.jpg);
+  background-size: cover;
+  background-position: fixed;
+}
+
+.home {
+  text-decoration: none;
+}
+
+#navbar {
+  background-color: #54595f;
+}
+
+.logo {
+  color: #fff;
+  text-transform: uppercase;
+  padding: 15px;
+  font-size: 25px;
+}
+
+.logo span {
+  color: #cf000f;
+  font-size: 35px;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+  background: #161616;
+  position: fixed;
+  top: -100%;
+  right: -100%;
+  width: 40vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  gap: 20px;
+  font-family: sans-serif;
+  transition: all 0.3s linear;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link a:hover {
+  color: #cf000f;
+}
+
+.nav-links.active {
+  top: 0;
+  right: 0;
+}
+
+.navbar-button {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  font-size: 30px;
+  background: none;
+  border: none;
+  outline: none;
+  padding: 20px;
+}
+
+.navbar-button i {
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-button i:hover {
+  color: #cf000f;
+}
+
+.Picture {
+  width: 300px;
+  height: 200px;
+  padding: 15px;
+  border: 3px solid #cf000f;
+  object-fit: cover;
+}
+
+.about {
+  display: flex;
+}
+
+.about-section {
+  color: #fff;
+  padding: 5px 10%;
+  margin: 25px;
+}
+
+.information {
+  display: flex;
+  padding: 15px;
+}
+
+.information p {
+  margin-bottom: 25px;
+}
+
+.right-info {
+  margin-left: 25px;
+}
+
+.Bio {
+  padding: 5px;
+  gap: 25px;
+  color: #fff;
+}
+
+.bio-heading {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #cf000f;
+
+  width: 30px;
+}
+
+.bio-text {
+  margin-bottom: 15px;
+}
+
+.Education {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  margin-top: 25px;
+  padding: 5px;
+}
+
+.Education-heading {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #cf000f;
+  width: 30px;
+}
+
+.Education a {
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid white;
+  background-color: #cf000f;
+  padding: 10px 5%;
+  transition: all 0.3s ease-in-out;
+  margin-right: 25px;
+}
+
+.Education a:hover {
+  background-color: black;
+}
+
+.Education-information {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  color: white;
+  padding: 10px;
+  border-bottom: 1px solid #54595f;
+  font-size: 20px;
+}
+
+.Education-information2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  color: white;
+  padding: 10px;
+  border-bottom: 1px solid #54595f;
+  font-size: 20px;
+}
+
+.skills-heading {
+  color: white;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #cf000f;
+  margin-top: 25px;
+  width: 30px;
+}
+
+.skill-icons {
+  margin-top: 25px;
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+
+.icons {
+  display: flex;
+  margin-right: 50px;
+  flex-direction: column;
+  align-items: center;
+  font-size: 35px;
+}
+
+.icons i {
+  border-radius: 50%;
+  border: 5px solid #54595f;
+  padding: 10px;
+  display: flex;
+  align-self: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.icons i:hover {
+  background-color: #cf000f;
+  font-size: 25px;
+}
+
+.skill-icons span {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  padding: 10px;
+}
+
+.footer i {
+  margin-right: 5px;
+}
+
+#content {
+  padding: 10px 5%;
+}

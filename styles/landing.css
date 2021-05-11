@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: url(../images/quinton-coetzee-gpa8Y_Fk7Rg-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.home {
+  text-decoration: none;
+}
+
+#navbar {
+  background-color: #54595f;
+}
+
+.logo {
+  color: #fff;
+  text-transform: uppercase;
+  padding: 15px;
+  font-size: 25px;
+}
+
+.logo span {
+  color: #cf000f;
+  font-size: 35px;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+  background: #161616;
+  position: fixed;
+  top: -100%;
+  right: -100%;
+  width: 40vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  gap: 20px;
+  font-family: sans-serif;
+  transition: all 0.3s linear;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link a:hover {
+  color: #cf000f;
+}
+
+.nav-links.active {
+  top: 0;
+  right: 0;
+}
+
+.navbar-button {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  font-size: 30px;
+  background: none;
+  border: none;
+  outline: none;
+  padding: 20px;
+}
+
+.navbar-button i {
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-button i:hover {
+  color: #cf000f;
+}
+
+.landing {
+  display: grid;
+  place-items: center;
+  margin-top: 10%;
+}
+
+.Picture {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 200px;
+  height: 166px;
+  border: 9px solid #54595f;
+}
+
+.landing-text {
+  color: #fff;
+  margin-top: 25px;
+  margin-right: 5px;
+  font-size: 35px;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  font-size: 35px;
+}
+
+.icons a {
+  text-decoration: none;
+  color: #fff;
+}
+.icons i {
+  margin-right: 15px;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.icons i:hover {
+  color: #cf000f;
+}

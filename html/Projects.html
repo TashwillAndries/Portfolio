@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tashwill Andries</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/fac4728399.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../styles/projects.css" />
+  </head>
+  <body>
+    <div id="navbar">
+      <a class="home" href="../index.html"
+        ><p class="logo">Tashwill<span>.</span></p></a
+      >
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li class="nav-link">
+            <a class="first-nav" href="../html/about.html">About</a>
+          </li>
+          <li class="nav-link">
+            <a href="#">Projects</a>
+          </li>
+          <li class="nav-link">
+            <a href="#">Testimonials</a>
+          </li>
+          <li class="nav-link">
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+        <button class="navbar-button" onclick="toggleNavbar()">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </div>
+
+    <div class="owl-carousel owl-everything">
+      <div class="owl-content">
+        <div class="description">
+          <h2 class="owl-heading">Project Cards<span>.</span></h2>
+          <div class="button">
+            <a href="https://agitated-archimedes-4f580c.netlify.app/">Live</a>
+            <a href="https://github.com/TashwillAndries/Project-cards"
+              >Github</a
+            >
+          </div>
+        </div>
+        <div class="project-img">
+          <img
+            class="project-cards"
+            src="../images/project cards.png"
+            alt="Projects-cards"
+          />
+        </div>
+      </div>
+      <div class="owl-content testimonial">
+        <div class="description">
+          <h2 class="owl-heading">Testimonial<span>.</span></h2>
+          <div class="button">
+            <a href="https://elastic-mclean-622011.netlify.app/">Live</a>
+            <a href="https://github.com/TashwillAndries/Testimonials">Github</a>
+          </div>
+        </div>
+        <div class="project-img">
+          <img
+            class="project-cards"
+            src="../images/testimonial.png"
+            alt="Projects-cards"
+          />
+        </div>
+      </div>
+      <div class="owl-content sneaker">
+        <div class="description">
+          <div class="owl-heading">
+            <h2>Sneaker Site<span>.</span></h2>
+          </div>
+          <div class="button">
+            <a href="https://inspiring-mclean-5720de.netlify.app/">Live</a>
+            <a href="https://github.com/TashwillAndries/Sneak-site">Github</a>
+          </div>
+        </div>
+        <div class="project-img">
+          <img
+            class="project-cards"
+            src="../images/sneaker-site.png"
+            alt="Projects-cards"
+          />
+        </div>
+      </div>
+      <div class="owl-content">
+        <div class="description">
+          <h2 class="owl-heading">Timeline<span>.</span></h2>
+          <div class="button">
+            <a href="https://elated-stonebraker-c22ae5.netlify.app/">Live</a>
+            <a href="https://github.com/TashwillAndries/Timeline">Github</a>
+          </div>
+        </div>
+        <div class="project-img">
+          <img
+            class="project-cards"
+            src="../images/timeline.png"
+            alt="Projects-cards"
+          />
+        </div>
+      </div>
+    </div>
+
+    <footer></footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          items: 1,
+          margin: 50,
+          loop: true,
+          stagePadding: 100,
+          dots: true,
+          responsive: {
+            0: {
+              items: 1,
+              stagePadding: 0,
+            },
+            500: {
+              items: 1,
+              margin: 0,
+              stagePadding: 50,
+            },
+          },
+          //   autoplay: true,
+        });
+      });
+    </script>
+    <script>
+      function toggleNavbar() {
+        document
+          .getElementsByClassName("nav-links")[0]
+          .classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: url(../images/quinton-coetzee-gpa8Y_Fk7Rg-unsplash.jpg);
+  background-size: cover;
+  background-position: fixed;
+  overflow: hidden;
+}
+
+.home {
+  text-decoration: none;
+}
+
+#navbar {
+  background-color: #54595f;
+}
+
+.logo {
+  color: #fff;
+  text-transform: uppercase;
+  padding: 15px;
+  font-size: 25px;
+}
+
+.logo span {
+  color: #cf000f;
+  font-size: 35px;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+  background: #161616;
+  position: fixed;
+  top: -100%;
+  right: -100%;
+  width: 40vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  gap: 20px;
+  font-family: sans-serif;
+  transition: all 0.3s linear;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link a:hover {
+  color: #cf000f;
+}
+
+.nav-links.active {
+  top: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.navbar-button {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  font-size: 30px;
+  background: none;
+  border: none;
+  outline: none;
+  padding: 20px;
+}
+
+.navbar-button i {
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-button i:hover {
+  color: #cf000f;
+}
+
+.owl-everything {
+  display: grid;
+  place-items: center;
+  margin: 30px;
+}
+.owl-content {
+  display: flex;
+  padding: 10px 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+.owl-carousel .owl-item img {
+  display: block;
+  height: 100%;
+  display: flex;
+  /* justify-content: flex-end;
+  align-content: flex-end; */
+  align-items: center;
+  margin-top: 25px;
+}
+
+.description {
+  color: white;
+  margin-right: 25%;
+}
+
+.owl-heading {
+  font-size: 25px;
+  margin-bottom: 15px;
+  white-space: nowrap;
+}
+
+.description h2 {
+  border-bottom: 2px solid #cf000f;
+  width: 30px;
+}
+
+.owl-heading span {
+  color: #cf000f;
+}
+
+.button {
+  margin-top: 50px;
+  bottom: 25px;
+  display: flex;
+}
+
+.button a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 5%;
+  background-color: #cf000f;
+  transition: all 0.3s ease-in-out;
+  margin-right: 35px;
+}
+
+.button a:hover {
+  border: 1px solid white;
+  background-color: transparent;
+}
+
+.testimonial {
+  margin-top: 80px;
+}
+
+.sneaker {
+  margin-top: 80px;
+}
