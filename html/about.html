@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tashwill Andries</title>
     <link rel="stylesheet" href="../styles/about.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script
       src="https://kit.fontawesome.com/fac4728399.js"
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
+  <body data-aos="fade-left">
     <div id="navbar">
       <a class="home" href="../index.html"
         ><p class="logo">Tashwill<span>.</span></p></a
@@ -25,10 +26,10 @@
             <a href="../html/Projects.html">Projects</a>
           </li>
           <li class="nav-link">
-            <a href="#">Testimonials</a>
+            <a href="../html/Testimonial.html">Testimonials</a>
           </li>
           <li class="nav-link">
-            <a href="#">Contact</a>
+            <a href="../html/Contact.html">Contact</a>
           </li>
         </ul>
         <button class="navbar-button" onclick="toggleNavbar()">
@@ -43,16 +44,17 @@
             class="Picture"
             src="../images/C8 Apr21 Tashwill Andries (1).JPG"
             alt="self-image"
+            data-aos="fade-up-right"
           />
 
           <div class="information">
-            <div class="left-info">
+            <div class="left-info" data-aos="fade-left">
               <p>Birthday: <span>10 March 1999</span></p>
               <p>Message: <span>+27 72 191 8667</span></p>
               <p>Email: <span>tashwilla27@gmail.com</span></p>
               <p>City: <span>Cape Town</span></p>
             </div>
-            <div class="right-info">
+            <div class="right-info" data-aos="fade-left">
               <p>Age: <span>22</span></p>
               <p>Phone: <span>+27 72 191 8667</span></p>
               <p>Whatsapp: <span>+27 84 869 1781</span></p>
@@ -60,7 +62,7 @@
           </div>
         </div>
       </div>
-      <div class="Bio">
+      <div class="Bio" data-aos="fade-up">
         <h2 class="bio-heading">Bio</h2>
         <p class="bio-text">
           I would describe my personality as a mixture between introverted with
@@ -123,6 +125,10 @@
         <p>Made by Tashwill Andries</p>
       </footer>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script>
       function toggleNavbar() {
         document

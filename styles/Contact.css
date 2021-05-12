@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background-image: url(../images/quinton-coetzee-gpa8Y_Fk7Rg-unsplash.jpg);
+  background-size: cover;
+  background-position: fixed;
+}
+
+.home {
+  text-decoration: none;
+}
+
+#navbar {
+  background-color: #54595f;
+}
+
+.logo {
+  color: #fff;
+  text-transform: uppercase;
+  padding: 15px;
+  font-size: 25px;
+}
+
+.logo span {
+  color: #cf000f;
+  font-size: 35px;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+  background: #161616;
+  position: fixed;
+  top: -100%;
+  right: -100%;
+  width: 40vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  gap: 20px;
+  font-family: sans-serif;
+  transition: all 0.3s linear;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link a:hover {
+  color: #cf000f;
+}
+
+.nav-links.active {
+  top: 0;
+  right: 0;
+}
+
+.navbar-button {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  font-size: 30px;
+  background: none;
+  border: none;
+  outline: none;
+  padding: 20px;
+}
+
+.navbar-button i {
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-button i:hover {
+  color: #cf000f;
+}
+
+.Contact {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10%;
+  margin: 30px 10%;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.Heading {
+  margin-bottom: 40px;
+  border-bottom: 2px solid #cf000f;
+  width: 30px;
+}
+
+.form-heading {
+  margin-bottom: 25px;
+}
+
+.form-heading span {
+  color: #cf000f;
+}
+
+.description-1 {
+  margin-bottom: 40px;
+}
+
+.description-2 {
+  margin-bottom: 40px;
+}
+
+.contact-description a {
+  text-decoration: none;
+  color: #7a7a7a;
+  transition: 0.3s ease-in;
+}
+
+.contact-description a:hover {
+  color: #cf000f;
+}
+
+.form-input {
+  outline: none;
+  border: none;
+  margin-bottom: 25px;
+  background-color: transparent;
+  padding: 10px;
+  border-bottom: 1px solid #54595f;
+  color: white;
+}
+
+.form-input::placeholder {
+  color: #7a7a7a;
+}
+
+.form-input:focus::placeholder {
+  color: transparent;
+}
+
+.form-input:focus {
+  border-bottom: 1px solid white;
+}
+
+.form-label {
+  display: none;
+}
+
+.messagebox {
+  width: 20vw;
+  padding: 20px;
+}
+
+.button {
+  padding: 10px 12%;
+  color: white;
+  border: none;
+  outline: none;
+  background-color: #cf000f;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: transparent;
+  border: 2px solid white;
+}
