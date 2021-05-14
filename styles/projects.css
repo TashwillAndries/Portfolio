@@ -96,7 +96,6 @@ body {
 .owl-everything {
   display: grid;
   place-items: center;
-  margin: 30px;
 }
 .owl-content {
   display: flex;

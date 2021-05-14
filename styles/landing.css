@@ -96,8 +96,8 @@ body {
 .Picture {
   object-fit: cover;
   border-radius: 50%;
-  width: 200px;
-  height: 166px;
+  width: 172px;
+  height: 172px;
   border: 9px solid #54595f;
 }
 
@@ -133,6 +133,9 @@ body {
   justify-content: center;
   color: white;
   padding: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 40%;
 }
 
 .footer i {
@@ -140,6 +143,10 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+  .footer {
+    position: absolute;
+    left: 20%;
+  }
   .landing-text {
     text-align: center;
   }
