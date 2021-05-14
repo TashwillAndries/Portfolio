@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tashwill Andries</title>
     <link rel="stylesheet" href="../styles/testimonial.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script
       src="https://kit.fontawesome.com/fac4728399.js"
       crossorigin="anonymous"
@@ -19,6 +20,9 @@
         >
         <nav class="navbar">
           <ul class="nav-links">
+            <li class="nav-link">
+              <a class="first-nav" href="../index.html">Home</a>
+            </li>
             <li class="nav-link">
               <a class="first-nav" href="../html/about.html">About</a>
             </li>
@@ -43,7 +47,7 @@
         <h2>Testimonial</h2>
       </div>
       <div class="container">
-        <div class="card">
+        <div class="card" data-aos="fade-up-left" data-aos-duration="3000">
           <div class="card-info">
             <div class="testimonial-img">
               <img src="../images/Godwin.png" alt="Godwin" />
@@ -61,7 +65,7 @@
             </div>
           </div>
         </div>
-        <div class="card">
+        <div class="card" data-aos="fade-up-right" data-aos-duration="3000">
           <div class="card-info">
             <div class="testimonial-img">
               <img src="../images/2021-team-jason-wandrag.jpg" alt="Jason" />
@@ -77,7 +81,7 @@
             </div>
           </div>
         </div>
-        <div class="card">
+        <div class="card" data-aos="fade-up-left" data-aos-duration="3000">
           <div class="card-info">
             <div class="testimonial-img">
               <img
@@ -97,7 +101,7 @@
             </div>
           </div>
         </div>
-        <div class="card">
+        <div class="card" data-aos="fade-up-right" data-aos-duration="3000">
           <div class="card-info">
             <div class="testimonial-img">
               <img src="../images/C8 Apr21 Nathan Giose (4).JPG" alt="Nathan" />
@@ -115,7 +119,7 @@
           </div>
         </div>
 
-        <div class="card">
+        <div class="card" data-aos="fade-up-left" data-aos-duration="3000">
           <div class="card-info">
             <div class="testimonial-img">
               <img
@@ -135,7 +139,7 @@
           </div>
         </div>
 
-        <div class="card">
+        <div class="card" data-aos="fade-up-right" data-aos-duration="3000">
           <div class="card-info">
             <div class="testimonial-img">
               <img
@@ -161,7 +165,10 @@
       <i class="far fa-copyright"></i>
       <p>Made by Tashwill Andries</p>
     </footer>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script>
       function toggleNavbar() {
         document

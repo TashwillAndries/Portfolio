@@ -172,13 +172,9 @@ body {
   border: 2px solid white;
 }
 
-.form-info textarea {
-  width: 55vw;
-}
-
 .footer {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   color: white;
   padding: 10px;
 }
@@ -196,7 +192,10 @@ body {
   }
 
   .contact-description {
-    text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
+  }
+
+  .form-info textarea {
+    width: 60vw;
   }
 }
