@@ -9,7 +9,7 @@ body {
   background-image: url(../images/quinton-coetzee-gpa8Y_Fk7Rg-unsplash.jpg);
   background-size: cover;
   background-position: fixed;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .home {
@@ -23,7 +23,7 @@ body {
 .logo {
   color: #fff;
   text-transform: uppercase;
-  padding: 15px;
+  padding: 15px 6%;
   font-size: 25px;
 }
 
@@ -85,6 +85,12 @@ body {
 
 .navbar-button i:hover {
   color: #cf000f;
+}
+
+.Heading {
+  padding: 10px 5%;
+  color: white;
+  margin: 15px;
 }
 
 .owl-everything {
@@ -155,4 +161,24 @@ body {
 
 .sneaker {
   margin-top: 80px;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  padding: 10px;
+}
+
+.footer i {
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 800px) {
+  .nav-links {
+    width: 100vw;
+  }
+  .owl-content {
+    flex-direction: column;
+  }
 }

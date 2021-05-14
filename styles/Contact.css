@@ -8,6 +8,7 @@ body {
   background-image: url(../images/quinton-coetzee-gpa8Y_Fk7Rg-unsplash.jpg);
   background-size: cover;
   background-position: fixed;
+  min-height: 100vh;
 }
 
 .home {
@@ -169,4 +170,33 @@ body {
 .button:hover {
   background-color: transparent;
   border: 2px solid white;
+}
+
+.form-info textarea {
+  width: 55vw;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  padding: 10px;
+}
+
+.footer i {
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 800px) {
+  .nav-links {
+    width: 100vw;
+  }
+  .Contact {
+    flex-direction: column;
+  }
+
+  .contact-description {
+    text-align: center;
+    margin-bottom: 25px;
+  }
 }

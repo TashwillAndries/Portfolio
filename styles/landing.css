@@ -10,6 +10,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 .home {
@@ -125,4 +126,14 @@ body {
 
 .icons i:hover {
   color: #cf000f;
+}
+
+@media screen and (max-width: 800px) {
+  .landing-text {
+    text-align: center;
+  }
+
+  .nav-links {
+    width: 100vw;
+  }
 }

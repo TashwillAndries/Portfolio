@@ -9,7 +9,8 @@ body {
   background-image: url(../images/quinton-coetzee-gpa8Y_Fk7Rg-unsplash.jpg);
   background-size: cover;
   background-position: fixed;
-  overflow-x: hidden;
+  min-height: 100vh;
+  /* overflow-x: hidden; */
 }
 
 .home {
@@ -23,8 +24,13 @@ body {
 .logo {
   color: #fff;
   text-transform: uppercase;
-  padding: 15px;
+  padding: 15px 8%;
   font-size: 25px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background-color: #54595f;
+  width: 100%;
 }
 
 .logo span {
@@ -88,21 +94,24 @@ body {
 }
 
 .Picture {
-  width: 300px;
-  height: 200px;
-  padding: 15px;
+  width: 35vw;
+  height: 50vh;
+  padding: 15px 0;
   border: 3px solid #cf000f;
   object-fit: cover;
+  margin-right: 10px;
 }
 
 .about {
   display: flex;
+  padding: 5px 1%;
+  margin: 5px 0;
 }
 
 .about-section {
   color: #fff;
-  padding: 5px 10%;
-  margin: 25px;
+  padding: 5px 0;
+  margin: 30px 0%;
 }
 
 .information {
@@ -244,5 +253,54 @@ body {
 }
 
 #content {
-  padding: 10px 7%;
+  padding: 5% 7%;
+}
+
+@media screen and (max-width: 800px) {
+  .nav-links {
+    width: 100vw;
+  }
+  #content {
+    padding: 10%;
+  }
+  .about {
+    flex-direction: column;
+  }
+  .information {
+    font-size: 12px;
+  }
+  .Picture {
+    width: 80vw;
+    height: 50vh;
+  }
+  .Education {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .Education-heading {
+    justify-content: center;
+  }
+
+  .Education-information {
+    flex-direction: column;
+  }
+
+  .icon {
+    display: flex;
+    align-self: center;
+    margin-bottom: 10px;
+  }
+
+  .skill-icons {
+    flex-direction: column;
+  }
+
+  .icons {
+    flex-direction: row;
+  }
+
+  .text {
+    margin-left: 25px;
+  }
 }

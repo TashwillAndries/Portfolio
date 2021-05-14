@@ -20,11 +20,20 @@ body {
   background-color: #54595f;
 }
 
+#content {
+  padding: 5% 7%;
+}
+
 .logo {
   color: #fff;
   text-transform: uppercase;
-  padding: 15px;
+  padding: 7px 8%;
   font-size: 25px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background-color: #54595f;
+  width: 100%;
 }
 
 .logo span {
@@ -99,7 +108,76 @@ body {
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  overflow: hidden;
-  padding: 1%;
+  padding: 5%;
   background-color: #54595f;
+  margin-top: 60px;
+}
+
+.card:hover {
+  background-color: #757b83;
+}
+.Testimonial-heading {
+  margin-top: 7%;
+  padding: 20px;
+  gap: 25px;
+  color: #fff;
+}
+
+.Testimonial-heading h2 {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #cf000f;
+  font-size: 25px;
+
+  width: 30px;
+}
+
+/* .card-info {
+  display: flex;
+} */
+.testimonial-img {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-top: -29%;
+}
+.card-info img {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 107px;
+  height: 102px;
+  margin-bottom: 15px;
+  box-shadow: 1px 19px 21px -1px rgba(0, 0, 0, 0.73);
+  -webkit-box-shadow: 1px 19px 21px -1px rgba(0, 0, 0, 0.73);
+  -moz-box-shadow: 1px 19px 21px -1px rgba(0, 0, 0, 0.73);
+}
+.text-heading {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-bottom: 5px;
+}
+.testimonial-text {
+  margin-left: 25px;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  padding: 10px;
+}
+
+.footer i {
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 800px) {
+  .nav-links {
+    width: 100vw;
+  }
+  .testimonial-img {
+    margin-left: 5%;
+  }
 }

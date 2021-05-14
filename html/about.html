@@ -12,31 +12,33 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body data-aos="fade-left">
-    <div id="navbar">
-      <a class="home" href="../index.html"
-        ><p class="logo">Tashwill<span>.</span></p></a
-      >
-      <nav class="navbar">
-        <ul class="nav-links">
-          <li class="nav-link">
-            <a class="first-nav" href="./about.html">About</a>
-          </li>
-          <li class="nav-link">
-            <a href="../html/Projects.html">Projects</a>
-          </li>
-          <li class="nav-link">
-            <a href="../html/Testimonial.html">Testimonials</a>
-          </li>
-          <li class="nav-link">
-            <a href="../html/Contact.html">Contact</a>
-          </li>
-        </ul>
-        <button class="navbar-button" onclick="toggleNavbar()">
-          <i class="fas fa-bars"></i>
-        </button>
-      </nav>
-    </div>
+  <body>
+    <header id="header">
+      <div id="navbar">
+        <a class="home" href="../index.html"
+          ><p class="logo">Tashwill<span>.</span></p></a
+        >
+        <nav class="navbar">
+          <ul class="nav-links">
+            <li class="nav-link">
+              <a class="first-nav" href="./about.html">About</a>
+            </li>
+            <li class="nav-link">
+              <a href="../html/Projects.html">Projects</a>
+            </li>
+            <li class="nav-link">
+              <a href="../html/Testimonial.html">Testimonials</a>
+            </li>
+            <li class="nav-link">
+              <a href="../html/Contact.html">Contact</a>
+            </li>
+          </ul>
+          <button class="navbar-button" onclick="toggleNavbar()">
+            <i class="fas fa-bars"></i>
+          </button>
+        </nav>
+      </div>
+    </header>
     <div id="content">
       <div class="about-section">
         <div class="about">
@@ -88,18 +90,18 @@
 
       <div class="Education-information">
         <div class="icon">
-          <i class="fas fa-school"></i>
-        </div>
-        <p>Rocklands High</p>
-        <p>Matriculated with diploma in 2017</p>
-      </div>
-
-      <div class="Education-information2">
-        <div class="icon">
           <i class="fas fa-graduation-cap"></i>
         </div>
         <p class="second-paragraph">Pearson Institute</p>
         <p class="second-paragraph">2018(but did not complete the year)</p>
+      </div>
+
+      <div class="Education-information">
+        <div class="icon">
+          <i class="fas fa-school"></i>
+        </div>
+        <p>Rocklands High</p>
+        <p>Matriculated with diploma in 2017</p>
       </div>
 
       <div class="skills">
@@ -107,15 +109,21 @@
         <div class="skill-icons">
           <div class="icons">
             <i class="fab fa-html5 icon"></i>
-            <p>HTML</p>
+            <div class="text">
+              <p>HTML</p>
+            </div>
           </div>
           <div class="icons">
             <i class="fab fa-python icon"></i>
-            <p>Python</p>
+            <div class="text">
+              <p>Python</p>
+            </div>
           </div>
           <div class="icons">
             <i class="fab fa-css3-alt icon"></i>
-            <p>CSS</p>
+            <div class="text">
+              <p>CSS</p>
+            </div>
           </div>
         </div>
       </div>
