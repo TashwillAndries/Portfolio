@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tashwill</title>
+    <link rel="stylesheet" href="../styles/interests.css" />
+    <script
+      src="https://kit.fontawesome.com/fac4728399.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header id="header">
+      <div id="navbar">
+        <a class="home" href="../index.html"
+          ><p class="logo">Tashwill<span>.</span></p></a
+        >
+        <nav class="navbar">
+          <ul class="nav-links">
+            <li class="nav-link">
+              <a class="first-nav" href="../index.html">Home</a>
+            </li>
+            <li class="nav-link">
+              <a class="first-nav" href="./about.html">About</a>
+            </li>
+            <li class="nav-link">
+              <a href="../html/Projects.html">Projects</a>
+            </li>
+            <li class="nav-link">
+              <a href="../html/interest.html">Interests</a>
+            </li>
+            <li class="nav-link">
+              <a href="../html/Testimonial.html">Testimonials</a>
+            </li>
+            <li class="nav-link">
+              <a href="../html/Contact.html">Contact</a>
+            </li>
+          </ul>
+          <button class="navbar-button" onclick="toggleNavbar()">
+            <i class="fas fa-bars"></i>
+          </button>
+        </nav>
+      </div>
+    </header>
+    <footer class="footer">
+      <i class="far fa-copyright"></i>
+      <p>Made by Tashwill Andries</p>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      function toggleNavbar() {
+        document
+          .getElementsByClassName("nav-links")[0]
+          .classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
