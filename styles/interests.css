@@ -21,10 +21,14 @@ body {
   background-color: #54595f;
 }
 
+#content {
+  padding: 10% 8%;
+}
+
 .logo {
   color: #fff;
   text-transform: uppercase;
-  padding: 15px 8%;
+  padding: 7px 8%;
   font-size: 25px;
   position: fixed;
   width: 100%;
@@ -91,4 +95,83 @@ body {
 
 .navbar-button i:hover {
   color: #cf000f;
+}
+
+.container {
+  display: flex;
+  padding: 25px 4%;
+}
+
+.passion-heading {
+  color: white;
+  border-bottom: 2px solid #cf000f;
+  width: 30px;
+  white-space: nowrap;
+}
+
+.info-description {
+  display: flex;
+  color: white;
+  margin-top: 25px;
+}
+
+.left-info p {
+  margin-bottom: 15px;
+}
+
+.right-info {
+  margin-left: 150px;
+}
+
+.right-info p {
+  margin-bottom: 15px;
+}
+
+.info-description span {
+  margin-left: 25px;
+}
+
+.info-description i {
+  border-radius: 50%;
+  border: 3px solid #cf000f;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.skills-heading {
+  color: white;
+  border-bottom: 2px solid #cf000f;
+  width: 30px;
+  white-space: nowrap;
+  margin-top: 50px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 10px;
+}
+
+.footer i {
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 800px) {
+  .nav-links {
+    width: 100vw;
+  }
+  #content {
+    padding: 20% 8%;
+  }
+  .info-description p {
+    margin-right: 15%;
+  }
+  .info-description span {
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-right: 30%;
+  }
 }
