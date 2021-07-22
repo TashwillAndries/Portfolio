@@ -203,6 +203,60 @@ body {
   font-size: 20px;
 }
 
+.interest-container {
+  display: flex;
+  padding: 25px 4%;
+}
+
+#interest-content {
+  padding: 10px 5%;
+}
+
+.passion-heading {
+  color: white;
+  border-bottom: 2px solid #cf000f;
+  width: 30px;
+  white-space: nowrap;
+  margin-top: 30px;
+}
+
+.interest-info-description {
+  display: flex;
+  color: white;
+  margin-top: 25px;
+}
+
+.interest-left-info p {
+  margin-bottom: 15px;
+}
+
+.interest-right-info {
+  margin-left: 150px;
+}
+
+.interest-right-info p {
+  margin-bottom: 15px;
+}
+
+.interest-info-description span {
+  margin-left: 25px;
+}
+
+.interest-info-description i {
+  border-radius: 50%;
+  border: 3px solid #cf000f;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.skills-heading {
+  color: white;
+  border-bottom: 2px solid #cf000f;
+  width: 30px;
+  white-space: nowrap;
+  margin-top: 50px;
+}
+
 .skills {
   padding: 10px 5%;
 }
@@ -296,6 +350,16 @@ body {
     flex-direction: column;
   }
 
+  .interest-info-description p {
+    margin-right: 15%;
+  }
+  .interest-info-description span {
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-right: 30%;
+  }
   .icon {
     display: flex;
     align-self: center;
