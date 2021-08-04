@@ -25,7 +25,7 @@ body {
   color: #fff;
   text-transform: uppercase;
   padding: 15px 8%;
-  font-size: 25px;
+  font-size: 34px;
   position: fixed;
   width: 100%;
   z-index: 100;
@@ -191,6 +191,10 @@ body {
   border-bottom: 1px solid #54595f;
   font-size: 20px;
   padding: 10px 5%;
+}
+
+.school-name{
+  margin-right: 27%;
 }
 
 .Education-information2 {
