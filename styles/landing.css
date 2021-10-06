@@ -154,4 +154,8 @@ body {
   .nav-links {
     width: 100vw;
   }
+  .logo {
+    font-size: 25px;
+    display: inline-block;
+  }
 }

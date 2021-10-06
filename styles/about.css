@@ -194,7 +194,7 @@ body {
   padding: 10px 5%;
 }
 
-.school-name{
+.school-name {
   margin-right: 27%;
 }
 
@@ -329,8 +329,15 @@ body {
   .nav-links {
     width: 100vw;
   }
+  /* .navbar {
+    width: 100%;
+  } */
   #content {
-    padding: 10%;
+    max-width: 100%;
+  }
+  .logo {
+    font-size: 15px;
+    width: 100%;
   }
   .about {
     flex-direction: column;
