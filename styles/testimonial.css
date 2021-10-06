@@ -184,16 +184,23 @@ body {
     margin-left: 5%;
   }
 
+  .logo {
+    font-size: 15px;
+    display: block;
+  }
+
   .container {
+    display: flex;
     justify-content: center;
+    align-items: center;
+    width: 100%;
   }
   .card {
     margin-top: 80px;
   }
 
-  /* .card {
-    display: flex;
+  .content {
+    justify-content: center;
     align-items: center;
-    padding: 10px 5%;
-  } */
+  }
 }
