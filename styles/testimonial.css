@@ -11,7 +11,6 @@ body {
   background-size: cover;
   background-position: fixed;
   min-height: 100vh;
-  /* min-width: 100vh; */
 }
 
 .home {
@@ -135,9 +134,6 @@ body {
   width: 30px;
 }
 
-/* .card-info {
-  display: flex;
-} */
 .testimonial-img {
   display: flex;
   justify-content: center;
@@ -161,7 +157,6 @@ body {
   margin-bottom: 5px;
 }
 .testimonial-text {
-  /* margin-left: 25px; */
   text-align: center;
 }
 
@@ -195,6 +190,7 @@ body {
     align-items: center;
     width: 100%;
   }
+
   .card {
     margin-top: 80px;
   }
